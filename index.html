@@ -250,7 +250,7 @@
             
             const amountText = amountVal > 0 ? `RM ${amountVal.toFixed(2)}` : "Telah Dibayar";
 
-            const message = `Salam / Hai En. Zainol Rashid,%0A%0ASaya telah membuat pembayaran DuitNow QR.%0A%0A📌 *Butiran Bayaran:*%0A👤 *Nama Pembayar:* ${encodeURIComponent(name)}%0A💰 *Jumlah:* ${encodeURIComponent(amountText)}%0A📝 *Catatan:* ${encodeURIComponent(note)}%0A%0ABukti resit dilampirkan. Terima kasih!`;
+            const message = `Salam / Hai En. Zainol,%0A%0ASaya telah membuat pembayaran DuitNow QR.%0A%0A📌 *Butiran Bayaran:*%0A👤 *Nama Pembayar:* ${encodeURIComponent(name)}%0A💰 *Jumlah:* ${encodeURIComponent(amountText)}%0A📝 *Catatan:* ${encodeURIComponent(note)}%0A%0ABukti resit dilampirkan. Terima kasih!`;
 
             const waUrl = `https://wa.me/${waUser}?text=${message}`;
 
